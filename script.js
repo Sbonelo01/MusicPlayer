@@ -10,7 +10,7 @@ const title = document.getElementById('title');
 const cover = document.getElementById('cover');
 
 // Song titles
-const songs = ['Wena', 'Ngozi', 'Ehlatini'];
+const songs = ['Now', 'Bloom', 'Us'];
 
 // Keep track of song
 let songIndex = 2;
@@ -22,7 +22,7 @@ loadSong(songs[songIndex]);
 function loadSong(song) {
   title.innerText = song;
   audio.src = `music/${song}.mp3`;
-  cover.src = `images/iyeza.jpeg`;
+  cover.src = `images/albumArt.jpeg`;
 }
 
 // Play song
